@@ -1,0 +1,41 @@
+# Maven build files
+target/
+*.jar
+*.war
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE specific files
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+
+# Spring Tool Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Database files
+*.mv.db
+*.trace.db
+
+# Test Reports
+test-output/
+
+# Spring Boot help file
+HELP.md
