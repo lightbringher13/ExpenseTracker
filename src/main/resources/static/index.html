@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Expense Tracker</h1>
+
+    <!-- Expense Table -->
+    <table id="expenseTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be loaded here -->
+        </tbody>
+    </table>
+
+    <!-- Add Expense Form -->
+    <h2>Add New Expense</h2>
+    <form id="expenseForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <input type="date" id="date" required>
+        <button type="submit">Add Expense</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
